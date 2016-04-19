@@ -42,7 +42,7 @@ public class ImageEditorFrame extends JFrame{
 		 }
 		 catch(IOException e){
 		 JOptionPane.showMessageDialog(this,
-		 "Die Datei konnte nicht geöffnet werden");
+		 "Die Datei konnte nicht geoffnet werden");
 		 }
 	}
 }
