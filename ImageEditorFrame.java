@@ -7,6 +7,8 @@ import javax.imageio.*;
 public class ImageEditorFrame extends JFrame{
  public ImageEditorFrame(){
      createMenuBar();
+ setTitle("Image Editor");
+
  setDefaultCloseOperation(EXIT_ON_CLOSE);
  setSize(400, 300);
  setVisible(true);
